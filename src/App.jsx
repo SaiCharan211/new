@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarItem from './components/NavbarItem/NavbarItem';
 function App() {
   return (
-    <Router >
+    <Router basename="/new">
       <NavbarItem/>
       <Routes>
         <Route exact path="/" element={<Home/>} />
